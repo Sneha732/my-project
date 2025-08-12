@@ -1,9 +1,5 @@
 import React from "react";
 import "./Recommend.css";
-import p1_img from "../Assets/product_1.png";
-import p2_img from "../Assets/product_2.png";
-import p3_img from "../Assets/product_3.png";
-import p4_img from "../Assets/product_4.png";
 import recommendGame1 from "../Assets/weekGame1.png";
 import recommendGame2 from "../Assets/weekGame2.png";
 import recommendGame3 from "../Assets/weekGame3.png";
@@ -45,7 +41,6 @@ const games = [
 const Recommend = () => {
   return (
     <div className="recommend-container">
-     
       <div className="recommend-header">
         <h2>
           Game Recomended For <br /> You This Week
